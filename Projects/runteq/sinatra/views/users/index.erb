@@ -1,0 +1,6 @@
+<h1>ユーザ一覧</h1>
+<div><% @user_hash.each do |user|%></div>
+<div><%= user[:id] %></div>
+<div><%= user[:name] %></div>
+<hr>
+<% end%>
