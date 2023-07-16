@@ -25,3 +25,4 @@ const fnObj = (objAddr) => {
 
 fnArr(arr);
 fnObj(objAddress);
+// falsy
